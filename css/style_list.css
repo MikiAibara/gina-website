@@ -1,0 +1,45 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Itim&display=swap');
+body{
+    font-family: 'Itim', cursive;
+    font-size: 18px;
+}
+a{
+    text-decoration: none;
+    color: #FE6CAE;
+}
+.logo{
+    text-align: center !important;
+}
+.logo img{
+    display: inline-block;
+    margin-bottom: 5px;
+}
+.w_inner{
+    width: 1200px;
+    margin: 0 auto;
+    background: #FFFF;
+}
+.header ul{
+    display: flex;/*一列に並べる*/
+    margin-bottom: 30px;
+}
+.header ul li{
+    width: 300px;
+    text-align: center;
+    border-right: 1px solid #FE6CAE;
+}
+.header ul li{
+    border-left: 1px solid #FE6CAE;
+}
+.header ul li{
+    display: block;
+}
+.middle{
+    margin-top: 100px;
+}
+.title p{
+    text-align: center;
+    font-size: 30px;
+    color: #78C2A4;
+}
